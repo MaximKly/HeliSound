@@ -1,3 +1,5 @@
 # HeliSound
 trial and error
-a demo
+
+Final project for the 4th course
+can they do it in 7 weeks???
