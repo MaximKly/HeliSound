@@ -1,0 +1,7 @@
+c:\users\maxalex\documents\visual studio 2013\Projects\HeliSound\HeliSound\bin\HeliSound.dll.config
+c:\users\maxalex\documents\visual studio 2013\Projects\HeliSound\HeliSound\bin\HeliSound.dll
+c:\users\maxalex\documents\visual studio 2013\Projects\HeliSound\HeliSound\bin\HeliSound.pdb
+c:\users\maxalex\documents\visual studio 2013\Projects\HeliSound\HeliSound\obj\Debug\HeliSound.csprojResolveAssemblyReference.cache
+c:\users\maxalex\documents\visual studio 2013\Projects\HeliSound\HeliSound\obj\Debug\HeliSound.dll
+c:\users\maxalex\documents\visual studio 2013\Projects\HeliSound\HeliSound\obj\Debug\HeliSound.pdb
+c:\users\maxalex\documents\visual studio 2013\Projects\HeliSound\HeliSound\bin\images\TopBanner.png

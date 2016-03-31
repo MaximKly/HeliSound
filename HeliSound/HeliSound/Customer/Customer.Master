@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Customer.master.cs" Inherits="HeliSound.Customer.Customer" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>HeLiSOUND Electroincs</title>
+    <link href="../styles/myStyle.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+        <div class="divCenter">
+            <img src="../images/topbanner.png" alt="Header" />
+        </div>
+       
+     <div class="nav">
+            <asp:LinkButton ID="lnkHome" runat="server" CssClass="navlinks" OnClick="lnkHome_Click">Home</asp:LinkButton>
+            <asp:LinkButton ID="lnkProfile" runat="server" CssClass="navlinks" OnClick="lnkProfile_Click">Profile</asp:LinkButton>
+            <asp:LinkButton ID="lnkSearch" runat="server" CssClass="navlinks" OnClick="lnkSearch_Click">Search</asp:LinkButton>
+            <asp:LinkButton ID="lnkSelected" runat="server" CssClass="navlinks" OnClick="lnkSelected_Click">My Cart</asp:LinkButton>
+            <asp:LinkButton ID="lnkLogout" runat="server" CssClass="navlinks" OnClick="lnkLogout_Click">Logout</asp:LinkButton>
+      </div>
+         <div class="labeluser">
+            <asp:Label ID="lblUser" runat="server" Text="Label" Font-Bold="True" Font-Size="Large"></asp:Label>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class="divCenter">
+            <img src="../images/helicopter.jpg" />
+        </div>
+      </div>      
+    </form>
+</body>
+</html>

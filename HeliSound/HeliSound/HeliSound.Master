@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HeliSound.master.cs" Inherits="HeliSound.HeliSound" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title>HeLiSOUND Electroincs</title>
+    <link href="styles/myStyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="page">
+        <div class="divCenter">
+            <img src="../images/topbanner.png" alt="Header" />
+        </div>
+        <div class="labeluser">
+            <asp:Label ID="lblUser" runat="server" Text="Label" Font-Bold="True" Font-Size="Large"></asp:Label>
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+        </asp:ContentPlaceHolder>
+        <div class="divCenter">
+            <img src="../images/helicopter.jpg" alt="footer" />
+        </div>
+    </div>
+      </div>      
+    </form>
+</body>
+</html>
